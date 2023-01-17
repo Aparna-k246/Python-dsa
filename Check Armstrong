@@ -1,0 +1,23 @@
+## Read input as specified in the question.
+## Print output as specified in the question.
+def checkAmstrong(n):
+    digits=0
+    num=n
+    while(num>0):
+        digits=digits+1
+        num=num//10
+    newnum=0
+    num=n
+    while num>0:
+        lastnum=num%10
+        newnum=newnum+(lastnum**digits)
+        num=num//10
+    if(newnum==n):
+        return True
+    return False
+n=int(input())
+
+if checkAmstrong(n):
+    print("true")
+else:
+    print("false")
