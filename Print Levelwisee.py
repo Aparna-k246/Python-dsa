@@ -1,45 +1,39 @@
-import queue, sys
-
-class TreeNode :
-    def __init__(self, data) :
+import sys
+class treeNode:
+    def __init__(self, data):
         self.data = data
-        self.children = list()
+        self.children = []
+    def __str__(self):
+        return str(self.data)
 
-def inputLevelWise() :
-    li = [int(elem) for elem in list(input().strip().split())]
-    i = 0
-    data = li[i] 
-    i += 1
-    if data == -1 :
-        return None
-    root = TreeNode(data) 
-    q = queue.Queue()
-    q.put(root)
-    while (not q.empty()) :
-        frontNode = q.get()
-        noOfChildren = li[i]
+def printLevelWiseTree(tree):
+    q = [tree]
+    while q:
+        parent = q.pop(0)
+        print(parent.data,':', ",".join(str(num) for num in parent.children),
+                sep='')
+        for child in parent.children:
+            q.append(child)
+
+
+def createLevelWiseTree(arr):
+    root = treeNode(int(arr[0]))
+    q = [root]
+    size = len(arr)
+    i = 1
+    while i<size:
+        parent = q.pop(0)
+        childCount = int(arr[i])
         i += 1
-        childrenArray = li[i : i+noOfChildren]
-        for childData in childrenArray :
-            childNode = TreeNode(childData)
-            frontNode.children.append(childNode)
-            q.put(childNode)
-        i = i+noOfChildren
+        for j in range(0,childCount):
+            temp = treeNode(int(arr[i+j]))
+            parent.children.append(temp)
+            q.append(temp)
+        i += childCount
     return root
-        
 
-def height(root) :
-    if root == None :
-        return 0
-    ans = 0
-    for child in root.children :
-        childHeight = height(child) 
-        if childHeight > ans :
-            ans = childHeight
-    return ans+1
-
-
-#main
+# Main
 sys.setrecursionlimit(10**6)
-root = inputLevelWise()
-print(height(root))
+arr = list(int(x) for x in input().strip().split(' '))
+tree = createLevelWiseTree(arr)
+printLevelWiseTree(tree)
