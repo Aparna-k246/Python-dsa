@@ -31,3 +31,4 @@ def takeInput() :
 weights, values, n, maxWeight = takeInput()
 
 print(knapsack(weights, values, n, maxWeight))
+
