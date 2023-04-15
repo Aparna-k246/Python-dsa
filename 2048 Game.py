@@ -134,3 +134,5 @@ for ele in inputs:
     else:
         mat = move_right(mat)
     print(mat)
+
+    
