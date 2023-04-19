@@ -37,3 +37,4 @@ sys.setrecursionlimit(10**6)
 arr = list(int(x) for x in input().strip().split(' '))
 tree = createLevelWiseTree(arr)
 print(leafNodeCount(tree))
+
