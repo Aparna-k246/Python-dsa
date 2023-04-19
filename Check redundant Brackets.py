@@ -21,3 +21,6 @@ if checkRedundantBrackets(expression) :
 	print("true")
 else :
 	print("false")
+
+	
+	
