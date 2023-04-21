@@ -84,3 +84,4 @@ def takeInput() :
 sys.setrecursionlimit(10**6)
 n, arr, k = takeInput()
 print(buyTicket(arr, n, k))
+
