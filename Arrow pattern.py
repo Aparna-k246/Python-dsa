@@ -1,5 +1,4 @@
-## Read input as specified in the question.
-## Print output as specified in the question.
+
 n = int(input())
 m = n // 2 + 1
 i = 1
