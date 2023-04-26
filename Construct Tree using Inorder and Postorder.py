@@ -9,6 +9,7 @@ class BinaryTreeNode:
         self.left = None
         self.right = None
 
+	
 def buildTree(postOrder, inOrder, n) :
     if n==0:
         return None
