@@ -1,4 +1,4 @@
-# Write your code here
+# Write you
 import queue
 from sys import stdin,setrecursionlimit
 setrecursionlimit(10**6)
