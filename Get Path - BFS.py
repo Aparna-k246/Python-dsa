@@ -20,6 +20,7 @@ class Graph:
     def containsEdge(self, v1, v2):
         if self.adjMatrix[v1][v2] > 0:
             return True
+
         else: 
             return False
         
