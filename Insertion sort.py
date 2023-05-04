@@ -32,8 +32,6 @@ def printList(arr, n) :
         print(arr[i], end = " ")
         
     print()
-
-
 #main
 t = int(stdin.readline().strip())
 
