@@ -16,30 +16,6 @@ def insertionSort(arr, n) :
         arr[j + 1] = temp
         i += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Taking Input Using Fast I/O
 def takeInput() :
     n = int(stdin.readline().strip())
