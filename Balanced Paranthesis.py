@@ -9,7 +9,6 @@ def isBalanced(expression) :
     for char in expression:
         if char in '({[' :
             stck.append(char)
-            
         elif char==')':
             if not stck or stck[-1]!='(' :
                 return False
