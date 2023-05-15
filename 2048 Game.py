@@ -1,4 +1,5 @@
 import random
+
 def start_game():
     mat = []
     for i in range(4):
