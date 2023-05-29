@@ -22,6 +22,7 @@ def isBalanced(expression) :
             if not stck or stck[-1]!='[' :
                 return False
             stck.pop()
+		
     
     if not stck:
         return True
