@@ -1,7 +1,4 @@
 
-
-
-
 from sys import stdin
 
 #Following is the Node class already written for the Linked List
