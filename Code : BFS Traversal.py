@@ -14,6 +14,7 @@ class Graph:
         self.adjMatrix[v1][v2] = 1
         self.adjMatrix[v2][v1] = 1
     
+    
     def removeEdge(self):
         if self.containsEdge(v1, v2) is False :
             return
