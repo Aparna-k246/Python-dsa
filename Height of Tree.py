@@ -18,6 +18,7 @@ def height(root) :
     leftHeight = height(root.left)
     rightHeight = height(root.right)
     return max(leftHeight,rightHeight) + 1
+
 	
 #Taking level-order input using fast I/O method
 
