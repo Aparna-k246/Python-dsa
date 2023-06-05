@@ -48,6 +48,7 @@ def takeInput():
     return root
 
 
+
 # Main
 root = takeInput()
 h = height(root)
