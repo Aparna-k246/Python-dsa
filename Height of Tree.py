@@ -32,6 +32,7 @@ def takeInput():
     start += 1
     q = queue.Queue()
     q.put(root)
+
     while not q.empty():
         currentNode = q.get()
         leftChild = levelOrder[start]
