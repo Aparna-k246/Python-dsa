@@ -20,6 +20,7 @@ def height(root) :
     return max(leftHeight,rightHeight) + 1
 	
 #Taking level-order input using fast I/O method
+
 def takeInput():
     levelOrder = list(map(int, stdin.readline().strip().split(" ")))
     start = 0
