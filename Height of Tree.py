@@ -47,6 +47,7 @@ def takeInput():
             q.put(rightNode)
     return root
 
+
 # Main
 root = takeInput()
 h = height(root)
