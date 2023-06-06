@@ -2,6 +2,7 @@
 
 
 
+
 from sys import stdin
 def binarySearch(arr, n, x) :
     #Your code goes here
