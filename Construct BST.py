@@ -1,4 +1,4 @@
-i
+
 import queue
 class BinaryTreeNode:
     def __init__(self, data):
