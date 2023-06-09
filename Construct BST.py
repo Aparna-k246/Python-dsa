@@ -7,6 +7,7 @@ class BinaryTreeNode:
         self.left = None
         self.right = None
 
+        
 def constructBST(lst, startIndex, endIndex):
     if startIndex>endIndex:
         return 
