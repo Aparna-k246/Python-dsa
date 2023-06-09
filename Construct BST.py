@@ -30,6 +30,7 @@ def preOrder(root):
     preOrder(root.left)
     preOrder(root.right)
 
+    
 # Main
 n=int(input())
 if(n>0):
