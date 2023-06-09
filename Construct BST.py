@@ -20,6 +20,7 @@ def constructBST(lst, startIndex, endIndex):
     
     return root
 
+
 def preOrder(root):
     # Given a binary tree, print the preorder traversal of given tree. Pre-order
     # traversal is: Root LeftChild RightChild
