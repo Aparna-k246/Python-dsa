@@ -11,5 +11,6 @@ while i <= n:
         charP = chr(ord(startP) + j - 1)
         print(charP, end='')
         j = j + 1
+        
     print()
     i = i + 1
