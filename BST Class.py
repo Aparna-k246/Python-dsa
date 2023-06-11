@@ -26,6 +26,7 @@ class BST:
         self.printTreeHelper(root.left)
         self.printTreeHelper(root.right)
     
+    
     def printTree(self):
         self.printTreeHelper(self.root)
     
