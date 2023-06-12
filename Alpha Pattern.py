@@ -1,4 +1,4 @@
-##
+
 ## Print output as specified in the question.
 n=int(input())
 i=1
