@@ -1,5 +1,5 @@
 
-## Print output as sp
+## Print ou
 n=int(input())
 i=1
 while i<=n:
