@@ -1,5 +1,5 @@
 
-## Print output as specified in the question.
+## Print output as sp
 n=int(input())
 i=1
 while i<=n:
