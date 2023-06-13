@@ -58,7 +58,8 @@ class Graph:
             if visited[i] is False :
                 self.__bfs(i, visited)
                 
-# Main
+
+#Main
 li = stdin.readline().strip().split()
 V = int(li[0])
 E = int(li[1])
