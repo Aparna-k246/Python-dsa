@@ -1,4 +1,5 @@
-from sys import stdin, setrecursionlimit
+f
+rom sys import stdin, setrecursionlimit
 import queue
 
 setrecursionlimit(10 ** 6)
