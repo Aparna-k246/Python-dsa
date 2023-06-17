@@ -15,6 +15,7 @@ class Graph:
         
         if self.containsEdge(v1, v2) is False :
             return
+            
         self.adjMatrix[v1][v2] = 0
         self.adjMatrix[v2][v1] = 0
         
