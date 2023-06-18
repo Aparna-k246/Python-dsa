@@ -3,6 +3,7 @@
 from sys import stdin,setrecursionlimit
 setrecursionlimit(10**6)
 class treeNode:
+    
     def __init__(self, data):
         self.data = data
         self.children = []
