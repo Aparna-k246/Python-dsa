@@ -58,6 +58,8 @@ def takeInput():
     return root
   
 def printLevelWise(root):
+
+    
     if root is None:
         return
     inputQ = queue.Queue()
