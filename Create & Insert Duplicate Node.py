@@ -45,6 +45,7 @@ def takeInput():
         currentNode = q.get()
         leftChild = levelOrder[start]
         start += 1
+        
         if leftChild != -1:
             leftNode = BinaryTreeNode(leftChild)
             currentNode.left =leftNode
