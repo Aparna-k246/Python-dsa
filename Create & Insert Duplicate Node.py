@@ -21,6 +21,7 @@ def insertDuplicateNode(root):
     insertDuplicateNode(root.left)
     insertDuplicateNode(root.right)
     
+   
     duplicate = BinaryTreeNode(root.data)
     duplicate.left = root.left
     root.left = duplicate
