@@ -30,6 +30,7 @@ def insertDuplicateNode(root):
     
 
 #Taking level-order input using fast I/O method
+
 def takeInput():
     levelOrder = list(map(int, stdin.readline().strip().split(" ")))
     start = 0
