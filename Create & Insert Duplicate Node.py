@@ -15,6 +15,7 @@ class BinaryTreeNode:
 
 def insertDuplicateNode(root):
     if root is None:
+        
         return None
     
     insertDuplicateNode(root.left)
