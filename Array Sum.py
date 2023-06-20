@@ -1,4 +1,4 @@
-## Read input as 
+## Read inpu
 ## Print output as specified in the question.
 N=int(input())
 
