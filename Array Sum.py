@@ -1,4 +1,4 @@
-## Read input as specified in the question.
+## Read input as specified in the que
 ## Print output as specified in the question.
 N=int(input())
 
