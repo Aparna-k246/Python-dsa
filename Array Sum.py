@@ -1,4 +1,4 @@
-## Rea
+## R
 ## Print output as specified in the question.
 N=int(input())
 
