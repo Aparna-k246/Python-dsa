@@ -2,6 +2,7 @@
 
 
 def checkAmstrong(n):
+
     digits=0
     num=n
     while(num>0):
