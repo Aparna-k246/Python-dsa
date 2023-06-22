@@ -25,6 +25,7 @@ n=int(input())
 
 
 if checkAmstrong(n):
+
     print("true")
 else:
     print("false")
