@@ -12,6 +12,7 @@ def checkAmstrong(n):
     newnum=0
     num=n
     while num>0:
+
         lastnum=num%10
         newnum=newnum+(lastnum**digits)
         num=num//10
