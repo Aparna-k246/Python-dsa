@@ -32,6 +32,7 @@ class Graph:
             return False
         
     def __str__(self):
+        
         return str(self.adjMatrix)
     
         
