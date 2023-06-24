@@ -46,6 +46,7 @@ class Graph:
             u = q.get()
             
             for i in range(self.nVertices) :
+                
                 if self.adjMatrix[u][i] == 1 and not visited[i]:
                     if i == ev :
                         return True
