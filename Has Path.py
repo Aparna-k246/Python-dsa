@@ -43,6 +43,7 @@ class Graph:
         visited[sv] = True
         
         while q.empty() is False :
+            
             u = q.get()
             
             for i in range(self.nVertices) :
