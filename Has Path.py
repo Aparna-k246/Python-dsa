@@ -44,6 +44,7 @@ class Graph:
         q = queue.Queue()
         
         q.put(sv)
+        
         visited[sv] = True
         
         while q.empty() is False :
