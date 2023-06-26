@@ -1,5 +1,5 @@
 
-## Print output as specif
+## Print output as spe
 N=int(input())
 
 li=[int(x) for x in input().split()]
