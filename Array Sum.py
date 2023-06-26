@@ -1,5 +1,5 @@
 
-## Print output as specified in th
+## Print output as specified i
 N=int(input())
 
 li=[int(x) for x in input().split()]
