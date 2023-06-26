@@ -1,5 +1,5 @@
 
-## Print output as specified in the quest
+## Print output as specified in the que
 N=int(input())
 
 li=[int(x) for x in input().split()]
