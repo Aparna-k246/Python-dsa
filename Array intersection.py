@@ -24,6 +24,7 @@ def intersection(arr1,arr2,n,m):
       i+=1
       
     else:
+      
       j+=1
 arr1=[2,4,1,6,5]
 
