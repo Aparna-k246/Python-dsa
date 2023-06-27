@@ -12,6 +12,7 @@ def intersection(arr1,arr2,n,m):
   while i<n and j<m:
     
     if arr1[i]==arr2[j]:
+      
       print(arr1[i],end=" ")
       i+=1
       
