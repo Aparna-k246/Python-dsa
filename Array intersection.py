@@ -19,6 +19,7 @@ def intersection(arr1,arr2,n,m):
       
       j+=1
     elif arr1[i]<arr2[j]:
+      
       i+=1
     else:
       j+=1
