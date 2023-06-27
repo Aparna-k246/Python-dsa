@@ -26,6 +26,7 @@ def intersection(arr1,arr2,n,m):
       j+=1
 arr1=[2,4,1,6,5]
 arr2=[2,3,4,1,6]
+
 n=5
 m=6
 intersection(arr1,arr2,n,m)
