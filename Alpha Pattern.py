@@ -8,6 +8,7 @@ while i<=n:
     k=ord('A')+i-1
     while j<=i:
         char=chr(k)
+        
         print(char,end='')
         j=j+1
         
