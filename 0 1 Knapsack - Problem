@@ -16,6 +16,7 @@ def knapsack(weights, values, n, maxWeight) :
 
 
 def takeInput() :
+
     n = int(stdin.readline().rstrip())
 
     if n == 0 :
