@@ -7,6 +7,7 @@ import queue
 def isBalanced(expression) :
 	
     stck = []
+	
     for char in expression:
 	    
         if char in '({[' :
