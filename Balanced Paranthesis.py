@@ -8,6 +8,7 @@ def isBalanced(expression) :
 	
     stck = []
     for char in expression:
+	    
         if char in '({[' :
             stck.append(char)
         elif char==')':
