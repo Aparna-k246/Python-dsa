@@ -5,8 +5,7 @@ def start_game():
         mat.append([0]*4)
     return mat
 def add_new_2(mat):
-    
-    r = random.randint(0,3)
+   r = random.randint(0,3)
     
     c = random.randint(0,3)
     while(mat[r][c] != 0):
