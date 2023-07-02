@@ -32,9 +32,6 @@ class Graph:
             if self.adjMatrix[vertex][i] == 1 and not visited[i] :
                 self.connectedComponentsHelper(visited, smallOutput, i)
                 
-    
-        
-    
     def allConnectedComponents(self) :
         visited = [False for i in range(self.nVertices)]
         output = []
