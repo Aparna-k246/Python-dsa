@@ -14,7 +14,6 @@ class Graph:
             return
         self.adjMatrix[v1][v2] = 0
         self.adjMatrix[v2][v1] = 0
-        
     def containsEdge(self, v1, v2):
         if self.adjMatrix[v1][v2] > 0:
             return True
