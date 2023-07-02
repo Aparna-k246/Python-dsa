@@ -43,8 +43,6 @@ class Graph:
                 output.append(smallOutput)
 
         return output
-
-
 # Main
 li = stdin.readline().strip().split()
 V = int(li[0])
