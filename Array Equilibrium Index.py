@@ -6,8 +6,7 @@ def arrayEquilibriumIndex(arr,n):
     rightSum+=arr[i]
   for i in range(n):
     rightSum-=arr[i]
-    
-    if rightSum==leftSum:
+   if rightSum==leftSum:
       return i
     leftSum+=arr[i]
   return -1
