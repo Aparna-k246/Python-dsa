@@ -4,6 +4,7 @@ def arrayEquilibriumIndex(arr,n):
   
   rightSum,leftSum=0,0
   for i in range(n):
+    
     rightSum+=arr[i]
   for i in range(n):
     rightSum-=arr[i]
