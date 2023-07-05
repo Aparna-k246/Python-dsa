@@ -8,6 +8,7 @@ inp_ls = list(map(int, input().split()))
 
 itr = 0
 queue = collections.deque()
+
 n = 0
 while inp_ls[itr]!=-1:
     
