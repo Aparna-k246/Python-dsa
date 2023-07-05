@@ -10,6 +10,7 @@ itr = 0
 queue = collections.deque()
 n = 0
 while inp_ls[itr]!=-1:
+    
     choice = inp_ls[itr]
     if(choice==1):
         itr = itr+1
