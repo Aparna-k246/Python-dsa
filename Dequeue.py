@@ -27,6 +27,7 @@ while inp_ls[itr]!=-1:
         else:
             print(-1)
     elif(choice==3):
+        
         if(n>=1):
             queue.popleft()
             n -= 1
