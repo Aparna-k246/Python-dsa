@@ -23,6 +23,7 @@ while inp_ls[itr]!=-1:
         itr = itr+1
         if(n<=9):
             queue.append(inp_ls[itr])
+            
             n += 1
         else:
             print(-1)
