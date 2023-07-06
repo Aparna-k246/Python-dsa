@@ -20,9 +20,6 @@ class Graph:
             return False
     def __str__(self):
         return str(self.adjMatrix)
-    
-        
-        
     def __bfs(self, sv, visited) :
         q = queue.Queue()
         q.put(sv)
