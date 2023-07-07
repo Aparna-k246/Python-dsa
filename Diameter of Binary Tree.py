@@ -17,6 +17,7 @@ def heightDiameter(root):
         return 0,0
     
     leftHeight,leftDiameter = heightDiameter(root.left)
+   
     rightHeight,rightDiameter = heightDiameter(root.right)
     height = 1+max(leftHeight,rightHeight)
     
