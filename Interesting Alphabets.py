@@ -12,6 +12,7 @@ while i <= n:
     startP = ord('A')+n - i
     
     while j<= i:
+        
         #print jth column
         
         print(chr(startP+j-1), end='')
