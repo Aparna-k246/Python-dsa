@@ -14,6 +14,7 @@ while i <= n:
         #print jth column
         
         print(chr(startP+j-1), end='')
+        
         j = j + 1
     print()
     i = i + 1
