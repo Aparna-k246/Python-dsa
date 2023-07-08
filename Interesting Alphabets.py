@@ -8,6 +8,7 @@ n = int(input())
 i = 1
 while i <= n:
     j = 1
+    
     startP = ord('A')+n - i
     while j<= i:
         #print jth column
