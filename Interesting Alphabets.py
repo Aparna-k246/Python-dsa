@@ -20,4 +20,5 @@ while i <= n:
         j = j + 1
         
     print()
+    
     i = i + 1
