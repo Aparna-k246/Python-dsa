@@ -4,6 +4,7 @@
 ## Print output as specified in the question.
 
 n = int(input())
+
 i = 1
 while i <= n:
     j = 1
