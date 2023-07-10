@@ -4,6 +4,7 @@
 n=int(input())
 
 n1=(n//2)+1
+
 n2=n1-1
 for i in range(1,n1+1):
     for sp1 in range (n1-i):
