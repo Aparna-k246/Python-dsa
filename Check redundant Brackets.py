@@ -19,6 +19,7 @@ def checkRedundantBrackets(expression) :
             while(stack.pop() != '('):
                 count += 1
             if count<=1:
+		    
                 return True
         else:
             stack.append(char)
