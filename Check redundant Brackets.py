@@ -10,6 +10,7 @@ def checkRedundantBrackets(expression) :
     
 	
     for char in expression:
+	    
         if char==')' :
             count = 0
             while(stack.pop() != '('):
