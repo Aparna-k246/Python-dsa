@@ -24,6 +24,7 @@ def checkRedundantBrackets(expression) :
 		    
                 return True
         else:
+		
             stack.append(char)
      
 
