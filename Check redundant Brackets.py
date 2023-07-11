@@ -17,6 +17,7 @@ def checkRedundantBrackets(expression) :
             count = 0
 		
             while(stack.pop() != '('):
+		    
                 count += 1
 		    
             if count<=1:
