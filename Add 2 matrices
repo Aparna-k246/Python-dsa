@@ -18,6 +18,7 @@ result = [[0,0,0],
 
 for i in range(len(X)):  
 
+
 # iterate through columns
 
     for j in range(len(X[0])):
