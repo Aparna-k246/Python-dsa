@@ -1,4 +1,4 @@
-## Read input as specifie
+## Read input as speci
 ## Print output as specified in the question.
 class Edge:
     def __init__(self,src,dest,wt):
