@@ -1,4 +1,4 @@
-## Read input as specified in the q
+## Read input as specified in the
 ## Print output as specified in the question.
 class Edge:
     def __init__(self,src,dest,wt):
