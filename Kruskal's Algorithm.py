@@ -1,4 +1,4 @@
-## Read input as specified in the quest
+## Read input as specified in the que
 ## Print output as specified in the question.
 class Edge:
     def __init__(self,src,dest,wt):
