@@ -18,6 +18,7 @@ def arrayEquilibriumIndex(arr,n):
       return i
      
     leftSum+=arr[i]
+
   return -1
 arr=[1, 4, 9, 3 ,2]
 n=5
