@@ -28,6 +28,7 @@ while True:
         b = int(input())
         print(a%b)
     elif o>6:
+        
         print("Invalid Operation")
     elif o==6:
         break
