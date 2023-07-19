@@ -24,7 +24,7 @@ def appendLastNToFirst(head,n) :
             tail = tail.next
             newHead = newHead.next
         newHead = newHead.next
-       tail.next = None
+        tail.next = None
         tail = newHead
         
         while tail.next is not None:
