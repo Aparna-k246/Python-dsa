@@ -12,7 +12,7 @@ def length(head):
     return len
 def appendLastNToFirst(head,n) :
     len = length(head)
-   if n==0:
+    if n==0:
         return head
     
     elif n>0 and n<len:
