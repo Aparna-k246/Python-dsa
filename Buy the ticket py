@@ -31,6 +31,7 @@ class Queue :
         return
         
     def dequeue(self) :
+
         if self.head is None :
             return None
         data = self.head.data
