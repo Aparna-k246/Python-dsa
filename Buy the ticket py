@@ -20,6 +20,7 @@ class Queue :
         self.size = 0
         
     def enqueue(self, data) :
+
         newNode = LinkedListNode(data)
         if self.head is None :
             self.head = self.tail = newNode
