@@ -32,6 +32,7 @@ def heightDiameter(root):
 
 def diameterOfBinaryTree(root) :
     
+    
     height,diameter = heightDiameter(root)
     
     return diameter
