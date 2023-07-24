@@ -26,6 +26,7 @@ def appendLastNToFirst(head,n) :
         tail = head
         
         for i in range(len-n-1):
+            
             tail = tail.next
             newHead = newHead.next
         newHead = newHead.next
