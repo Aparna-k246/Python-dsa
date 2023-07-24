@@ -8,6 +8,7 @@ class Node :
         
         self.next = None
 def length(head):
+    
     len = 0
     while head is not None:
         len += 1
