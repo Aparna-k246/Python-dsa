@@ -15,6 +15,7 @@ def length(head):
     
     len = 0
     while head is not None:
+        
         len += 1
         head = head.next
     return len
