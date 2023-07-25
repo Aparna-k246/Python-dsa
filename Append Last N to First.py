@@ -21,6 +21,7 @@ def length(head):
         head = head.next
     return len
 def appendLastNToFirst(head,n) :
+    
     len = length(head)
     if n==0:
         return head
