@@ -21,6 +21,7 @@ def length(head):
         
         
         len += 1
+        
         head = head.next
         
     return len
