@@ -16,6 +16,7 @@ def length(head):
     
     
     len = 0
+    
     while head is not None:
         
         
