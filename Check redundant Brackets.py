@@ -35,6 +35,7 @@ def checkRedundantBrackets(expression) :
 
 
 #main
+
 expression = stdin.readline().strip()
 if checkRedundantBrackets(expression) :
 	print("true")
