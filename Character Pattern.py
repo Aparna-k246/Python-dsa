@@ -16,6 +16,7 @@ while i <= n:
         #print jth column
         charP = chr(ord(startP) + j - 1)
         print(charP, end='')
+        
         j = j + 1
         
     print()
