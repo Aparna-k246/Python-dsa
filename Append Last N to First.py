@@ -14,6 +14,7 @@ class Node :
         
         self.next = None
         
+        
 def length(head):
     
     
