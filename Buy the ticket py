@@ -47,6 +47,7 @@ class Queue :
     
     def isEmpty(self) :
         if self.head is None :
+
             return True
         return False
     
