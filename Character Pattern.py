@@ -14,6 +14,7 @@ while i <= n:
     startP = chr(ord('A') + i - 1)
     
     
+    
     while j<= i:
         
         #print jth column
