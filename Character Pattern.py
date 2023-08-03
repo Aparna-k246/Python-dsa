@@ -20,6 +20,7 @@ while i <= n:
     while j<= i:
         
         #print jth column
+        
         charP = chr(ord(startP) + j - 1)
         print(charP, end='')
         
