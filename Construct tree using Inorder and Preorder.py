@@ -22,6 +22,7 @@ def buildTree(preOrder, inOrder, n) :
     
     rootData = preOrder[0]
     root = BinaryTreeNode(rootData)
+	
     indexOfRoot = inOrder.index(rootData)
     
     inOrderLeft = inOrder[ : indexOfRoot]
