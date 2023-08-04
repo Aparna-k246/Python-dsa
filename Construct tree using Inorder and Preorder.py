@@ -15,6 +15,7 @@ class BinaryTreeNode:
         self.right = None
 
 def buildTree(preOrder, inOrder, n) :
+	
     if n==0:
         return None
     
