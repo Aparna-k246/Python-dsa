@@ -6,6 +6,7 @@ m = n // 2 + 1
 i = 1
 
 while i <= m:
+    
     sp = 1
     
     while sp < i:
