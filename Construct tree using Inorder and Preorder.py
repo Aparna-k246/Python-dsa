@@ -48,6 +48,7 @@ def buildTree(preOrder, inOrder, n) :
     
 
 def printLevelWise(root):
+	
     if root is None :
         return
     pendingNodes = queue.Queue()
