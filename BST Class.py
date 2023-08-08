@@ -20,6 +20,7 @@ class BST:
     def printTreeHelper(self,root):
         
         if root==None:
+            
             return
         print(root.data,end=":")
         if root.left!=None:
