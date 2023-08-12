@@ -13,6 +13,7 @@ def isBalanced(expression) :
 	
     for char in expression:
 	    
+	    
         if char in '({[' :
             stck.append(char)
         elif char==')':
