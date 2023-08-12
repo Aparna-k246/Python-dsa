@@ -24,6 +24,7 @@ def isBalanced(expression) :
             
         elif char=='}':
             if not stck or stck[-1]!='{' :
+		    
                 return False
             stck.pop()
             
