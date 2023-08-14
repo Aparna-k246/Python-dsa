@@ -12,6 +12,7 @@ setrecursionlimit(10**6)
 class Graph:
     
     def __init__(self, nVertices):
+        
         self.nVertices = nVertices
         self.adjMatrix = [[0 for i in range(nVertices)] for j in range(nVertices)]
     def addEdge(self, v1, v2):
