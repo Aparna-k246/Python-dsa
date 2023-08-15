@@ -26,6 +26,7 @@ def buildTree(postOrder, inOrder, n) :
     indexOfRoot = inOrder.index(rootData)
 	
     inOrderLeft = inOrder[ : indexOfRoot]
+	
     inOrderRight = inOrder[indexOfRoot+1 : ]
     
     lenghtOfLeft = len(inOrderLeft)
