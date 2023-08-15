@@ -34,6 +34,7 @@ def buildTree(postOrder, inOrder, n) :
     postOrderRight = postOrder[lenghtOfLeft : -1]
     
     leftSubTree = buildTree(postOrderLeft, inOrderLeft, len(postOrderLeft))
+	
     rightSubTree = buildTree(postOrderRight, inOrderRight, len(postOrderRight))
     
     root.left = leftSubTree
