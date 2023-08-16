@@ -1,4 +1,5 @@
 def uniqueChar(s): 
+    
     ans = '' 
     d = {} 
     for char in s: 
