@@ -6,6 +6,7 @@ def uniqueChar(s):
     
     for char in s: 
         if char not in d: 
+            
             ans = ans + char 
             d[char] = True 
     return ans 
