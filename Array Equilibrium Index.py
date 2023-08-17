@@ -2,6 +2,7 @@
 #Time Complexity=O(N)
 
 #Space Complexity=O(1)
+
 def arrayEquilibriumIndex(arr,n):
   
   rightSum,leftSum=0,0
