@@ -27,6 +27,7 @@ def arrayEquilibriumIndex(arr,n):
 
   return -1
 arr=[1, 4, 9, 3 ,2]
+
 n=5
 
 arrayEquilibriumIndex(arr,n)
