@@ -15,6 +15,7 @@ def arrayEquilibriumIndex(arr,n):
     
   for i in range(n):
     
+    
     rightSum-=arr[i]
     
    if rightSum==leftSum:
