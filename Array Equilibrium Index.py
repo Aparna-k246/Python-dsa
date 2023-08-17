@@ -20,6 +20,7 @@ def arrayEquilibriumIndex(arr,n):
     
    if rightSum==leftSum:
      
+     
       return i
      
     leftSum+=arr[i]
