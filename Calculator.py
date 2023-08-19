@@ -1,4 +1,3 @@
-
 while True:
     
     o=int(input())
