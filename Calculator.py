@@ -7,7 +7,6 @@ while True:
         b = int(input())
         print(a+b)
     elif o==2:
-        
         a = int(input())
         b = int(input())
         print(a-b)
