@@ -3,6 +3,7 @@ while True:
     if o==1:
         
         a = int(input())
+        
         b = int(input())
         print(a+b)
     elif o==2:
