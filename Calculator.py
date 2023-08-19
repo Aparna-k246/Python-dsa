@@ -1,5 +1,4 @@
 while True:
-    
     o=int(input())
     if o==1:
         
