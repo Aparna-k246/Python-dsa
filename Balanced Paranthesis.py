@@ -2,7 +2,6 @@ from sys import stdin
 import queue
 def isBalanced(expression) :
     stck = []
-	
     for char in expression:
 	    
 	    
