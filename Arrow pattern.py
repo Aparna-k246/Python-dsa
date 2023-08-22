@@ -1,6 +1,7 @@
 n = int(input())
 
 
+
 m = n // 2 + 1
 
 i = 1
