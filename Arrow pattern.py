@@ -13,6 +13,7 @@ while i <= m:
     
     while sp < i:
         
+        
         print(" ", end = "")
         sp+=1
         
