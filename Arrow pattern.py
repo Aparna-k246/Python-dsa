@@ -15,6 +15,7 @@ while i <= m:
         
         
         print(" ", end = "")
+        
         sp+=1
         
     j = i
