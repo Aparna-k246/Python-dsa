@@ -1,6 +1,7 @@
 
 
 
+
 n=int(input())
 
 
