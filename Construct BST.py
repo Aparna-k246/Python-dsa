@@ -30,6 +30,7 @@ def preOrder(root):
     if root==None:
         return
     print(root.data, end=' ')
+    
     preOrder(root.left)
     preOrder(root.right)
 
