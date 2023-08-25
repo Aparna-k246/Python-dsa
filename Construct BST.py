@@ -13,6 +13,7 @@ class BinaryTreeNode:
 
         
 def constructBST(lst, startIndex, endIndex):
+    
     if startIndex>endIndex:
         return 
     
