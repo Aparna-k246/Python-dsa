@@ -16,6 +16,7 @@ def deleteAlternateNodes(head):
 	
 	
 	if (head == None):
+		
 		return
 	prev = head
 	now = head.next
