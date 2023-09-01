@@ -14,6 +14,7 @@ class Node:
 
 def deleteAlternateNodes(head):
 	
+	
 	if (head == None):
 		return
 	prev = head
