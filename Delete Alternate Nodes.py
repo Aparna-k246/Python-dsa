@@ -13,6 +13,7 @@ class Node:
 		self.next = None
 
 def deleteAlternateNodes(head):
+	
 	if (head == None):
 		return
 	prev = head
