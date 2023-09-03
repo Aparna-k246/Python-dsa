@@ -17,6 +17,7 @@ class BinaryTreeNode:
         
         
         
+        
         self.data = data
         self.left = None
         self.right = None
