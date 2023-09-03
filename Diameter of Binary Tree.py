@@ -22,6 +22,7 @@ class BinaryTreeNode:
 def heightDiameter(root):
     
     
+    
     if root is None:
         
         return 0,0
