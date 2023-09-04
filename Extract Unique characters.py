@@ -20,4 +20,5 @@ def uniqueChar(s):
 
 # Main 
 s=input() 
+
 print(uniqueChar(s))
