@@ -15,6 +15,7 @@ def uniqueChar(s):
             ans = ans + char 
             
             d[char] = True 
+            
     return ans 
 
 # Main 
