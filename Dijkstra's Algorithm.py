@@ -2,6 +2,7 @@
 
 ## Print output as specified in the question.
 import sys
+
 class Graph:
     
     def __init__(self,nVertices):
