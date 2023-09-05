@@ -30,6 +30,7 @@ class Graph:
         
     def bfs():
         visited = [False for i in range(self.nVertices)]
+        
         for i in range(self.nVertices):
             if visited[i] is False:
                 self.__bfsHelper(i,visited)
