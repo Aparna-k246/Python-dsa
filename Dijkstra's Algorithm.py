@@ -1,6 +1,7 @@
 ## Read input as specified in the question.
 
 
+
 ## Print output as specified in the question.
 import sys
 
@@ -19,6 +20,7 @@ class Graph:
         
     def __bfsHelper(s,visited):
         q = queue.Queue()
+        
         q.put(s)
         visited[s] = True
         while q.empty() is False:
