@@ -2,6 +2,7 @@ from sys import stdin
 
 MAX_VALUE = 2147483647
 
+
 def minCostPathHelper(input, mRows, nCols, currRow, currCol) :
     if (currRow >= mRows) or (currCol >= nCols) :
         return MAX_VALUE
