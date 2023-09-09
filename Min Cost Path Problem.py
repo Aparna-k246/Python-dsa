@@ -1,5 +1,6 @@
 from sys import stdin
 
+
 MAX_VALUE = 2147483647
 
 
