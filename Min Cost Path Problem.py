@@ -22,6 +22,7 @@ def minCostPathHelper(input, mRows, nCols, currRow, currCol) :
 
 def minCostPath(input, mRows, nCols) :
     
+    
     if mRows == 0 :
         return MAX_VALUE
     
