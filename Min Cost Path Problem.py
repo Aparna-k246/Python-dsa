@@ -7,6 +7,7 @@ def minCostPathHelper(input, mRows, nCols, currRow, currCol) :
     
     if (currRow >= mRows) or (currCol >= nCols) :
         return MAX_VALUE
+        
 
         
     if currRow == (mRows - 1) and currCol == (nCols - 1) :
