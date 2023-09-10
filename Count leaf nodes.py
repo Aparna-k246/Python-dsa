@@ -2,6 +2,7 @@ import sys
 
 class treeNode:
     def __init__(self, data):
+        
         self.data = data
         self.children = []
     def __str__(self):
