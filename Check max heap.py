@@ -1,5 +1,6 @@
 def checkMaxHeap(lst):
     
+    
     n = len(lst)
     for i in range(n):
         left = (2*i) + 1
