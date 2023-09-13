@@ -21,6 +21,7 @@ def elementsInRangeK1K2(root, k1, k2):
         elementsInRangeK1K2(root.right, k1, k2)
         
 def buildLevelTree(levelorder):
+    
     index = 0
     length = len(levelorder)
     if length<=0 or levelorder[0]==-1:
