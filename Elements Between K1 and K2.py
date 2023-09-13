@@ -8,6 +8,7 @@ class BinaryTreeNode:
         self.right = None
 
 def elementsInRangeK1K2(root, k1, k2):
+    
     if root is None:
         return
     elif root.data<k1:
