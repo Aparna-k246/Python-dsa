@@ -10,6 +10,7 @@ def intersection(arr1,arr2,n,m):
  
  
  
+ 
  arr1.sort()
  
  arr2.sort()
