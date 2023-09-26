@@ -3,6 +3,7 @@
 
 def checkAmstrong(n):
 
+
     digits=0
 
     num=n
