@@ -23,6 +23,7 @@ def checkAmstrong(n):
         num=num//10
     if(newnum==n):
 
+
         return True
     return False
 n=int(input())
