@@ -19,6 +19,7 @@ def arrayEquilibriumIndex(arr,n):
     rightSum+=arr[i]
     
     
+    
   for i in range(n):
     
     
