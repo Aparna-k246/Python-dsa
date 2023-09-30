@@ -5,6 +5,7 @@
 
 #Space Complexity=O(1)
 
+
 def arrayEquilibriumIndex(arr,n):
   
 
